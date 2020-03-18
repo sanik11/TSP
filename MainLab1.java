@@ -13,7 +13,7 @@ public class MainLab1 {
             calc = new Calculating(n);
             System.out.printf("Formula 1: %.3f\nFormula 2: %.3f\nFormula 3: %.3f\nFormula 4: %.3f", calc.formula1(), calc.formula2(), calc.formula3(), calc.formula4());
         } catch (Except | InputMismatchException e) {
-            System.out.println(e);
+            System.out.println("Incorrect entry.");
         }
     }
 }
